@@ -1,5 +1,7 @@
 <%= form_with scope: :email, local: true do |form| %>
     <p>
+      <%= form.label :name %>
+      <%= form.text_field :name %><br>
       <%= form.label :address %>
       <%= form.text_field :address %>
     </p>
